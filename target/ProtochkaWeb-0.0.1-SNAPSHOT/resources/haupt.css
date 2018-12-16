@@ -1,0 +1,107 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+.wrapper {
+  margin-bottom: 100px;
+}
+
+.title{
+  font-family: sans-serif;
+  color: #dc2d5e;
+  text-align: center;
+}
+.tabContainer{
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabContainer .buttonContainer .button button{
+  background-color: #ffe0b2;
+}
+.tabContainer .buttonContainer .buttons button{
+  background-color: #ffca86;
+  border-bottom-style: solid;
+  border-bottom-color: #59351f;
+  border-bottom-width: 1px;
+}
+.tabContainer .buttonContainer{
+  height: 40px;
+}
+.tabContainer .buttonContainer button{
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+ 
+  
+  border-top-style: solid;
+  border-top-color: #59351f;
+  border-top-width: 1px;
+  
+  border-left-style: solid;
+  border-left-color: #59351f;
+  border-left-width: 1px;
+  
+  border-right-style: solid;
+  border-right-color: #59351f;
+  border-right-width: 1px;
+  
+  border-radius: 10px 10px 0 0;
+}
+.tabContainer .buttonContainer .buttons button:hover{
+  background-color: #f4a460;
+}
+.tabContainer .tabPanel{
+  height: 85%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 22ps;
+  border-radius: 0 0 7px 7px;
+  
+  border-left-style: solid;
+  border-left-color: #59351f;
+  border-left-width: 1px;
+  
+  border-right-style: solid;
+  border-right-color: #59351f;
+  border-right-width: 1px;
+  
+  border-bottom-style: solid;
+  border-bottom-color: #59351f;
+  border-bottom-width: 1px;
+  
+  display: "Block";
+  background-color: #ffe0b2;
+  color: #000;
+}
+
+.Footer{
+  background-color: grey;
+  border-top-style: solid;
+  border-top-color: #000000;
+  border-top-width: 1px;
+  width: 100%;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+}
+.Footer .info{
+  padding: 15px;
+  font-family: sans-serif;
+  color: #fff;
+}
