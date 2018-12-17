@@ -9,8 +9,10 @@
 <meta charset= "UTF-8">
 <title>InTab</title>
 </head>
-<body>
-  <h1>Tischlereiname</h1>
+<body background="https://pp.userapi.com/c636617/v636617480/40599/hRfilakxMIc.jpg">
+ <div class="space"></div>
+  <div class="location"><a href="http://localhost:8080/ProtochkaWeb/question">Ask</a></div>
+  <div class="space"></div>
 <div class="wrapper">
   <div class="tabContainer">
     <div class="buttonContainer">

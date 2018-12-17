@@ -1,9 +1,12 @@
 package com.protochka.quest;
 
+//import javax.validation.constraints.Size;
+
 public class Opinion {
 	
 	private String name;
 	
+	//@Size(min=11, max=11)
 	private int number;
 	
 	private String mail;
